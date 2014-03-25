@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:duplicateParentState="true"
+    android:paddingTop="8dp"
+    android:paddingBottom="2dp" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:layout_gravity="center_vertical"
+            android:duplicateParentState="true" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            app:typeface="roboto_slab_light"
+            android:id="@+id/text"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textSize="19sp"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:text="Testing"
+            android:paddingLeft="16dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="6dp"
+        style="@style/NavigationDrawerDivider"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SPAH.iml" filepath="$PROJECT_DIR$/SPAH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spah-golf/spah-golf.iml" filepath="$PROJECT_DIR$/spah-golf/spah-golf.iml" />
+    </modules>
+  </component>
+</project>
+
